@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles, ArrowRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import facilitator from "@/assets/facilitator.jpg";
 
 const Hero = () => {
   return (
@@ -27,76 +26,49 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left: Text Content */}
-          <div className="text-white space-y-6 animate-fade-in">
-            <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
-              <Sparkles className="w-4 h-4" />
-              <span className="text-sm font-medium">100% Free AI Education</span>
-            </div>
-
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight">
-              Master Practical
-              <span className="block gradient-accent text-gradient">AI Skills</span>
-              That Matter
-            </h1>
-
-            <p className="text-xl sm:text-2xl text-white/90 max-w-2xl leading-relaxed">
-              Join our free AI Literacy Webinar and learn how to use Generative AI, 
-              ChatGPT, and AI automation tools to thrive in the AI era.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button variant="accent" size="xl" className="group">
-                Join the Webinar
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button variant="outline" size="xl" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary">
-                Learn More
-              </Button>
-            </div>
-
-            <div className="flex items-center gap-8 pt-6">
-              <div>
-                <div className="text-3xl font-bold">500+</div>
-                <div className="text-sm text-white/80">Students Empowered</div>
-              </div>
-              <div className="w-px h-12 bg-white/30" />
-              <div>
-                <div className="text-3xl font-bold">100%</div>
-                <div className="text-sm text-white/80">Free Learning</div>
-              </div>
-              <div className="w-px h-12 bg-white/30" />
-              <div>
-                <div className="text-3xl font-bold">4.9/5</div>
-                <div className="text-sm text-white/80">Student Rating</div>
-              </div>
-            </div>
+        <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full mb-8 animate-fade-in">
+            <Sparkles className="w-5 h-5 text-accent" />
+            <span className="text-white font-semibold">AI Literacy Class • Limited to 150 Spots</span>
           </div>
 
-          {/* Right: Facilitator Image */}
-          <div className="relative animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <div className="relative">
-              {/* Decorative elements */}
-              <div className="absolute -top-6 -right-6 w-72 h-72 gradient-accent rounded-full opacity-20 blur-3xl" />
-              <div className="absolute -bottom-6 -left-6 w-72 h-72 gradient-secondary rounded-full opacity-20 blur-3xl" />
-              
-              {/* Image */}
-              <div className="relative z-10">
-                <img 
-                  src={facilitator} 
-                  alt="Torkuma - AI Literacy Facilitator" 
-                  className="rounded-2xl shadow-2xl w-full max-w-md mx-auto border-4 border-white/20"
-                />
-                
-                {/* Floating badge */}
-                <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full px-6 py-3 shadow-xl">
-                  <div className="text-center">
-                    <div className="text-sm text-muted-foreground">Your Facilitator</div>
-                    <div className="text-lg font-bold text-foreground">Torkuma</div>
-                  </div>
-                </div>
-              </div>
+          {/* Main Headline */}
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight text-white mb-6 animate-fade-in">
+            Master AI in 30 Days
+            <span className="block mt-2 gradient-accent text-gradient">Transform Your Future</span>
+          </h1>
+
+          {/* Subheadline */}
+          <p className="text-xl sm:text-2xl text-white/90 max-w-3xl leading-relaxed mb-8 animate-fade-in">
+            Learn practical AI skills to boost your career, productivity, and creativity.
+            Join our intensive training program starting November 15th.
+          </p>
+
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in">
+            <Button variant="accent" size="xl" className="group">
+              Register for the AI Literacy Class
+              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+            </Button>
+            <Button variant="outline" size="xl" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary">
+              Learn More
+            </Button>
+          </div>
+
+          {/* Key Stats */}
+          <div className="grid grid-cols-3 gap-8 pt-8 max-w-2xl mx-auto animate-fade-in">
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-extrabold text-white mb-1">150</div>
+              <div className="text-sm text-white/80">Limited Spots</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-extrabold text-white mb-1">30 Days</div>
+              <div className="text-sm text-white/80">Intensive Training</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-extrabold text-white mb-1">Daily</div>
+              <div className="text-sm text-white/80">8:30 PM Sessions</div>
             </div>
           </div>
         </div>

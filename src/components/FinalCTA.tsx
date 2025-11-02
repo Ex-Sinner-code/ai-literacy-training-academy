@@ -6,7 +6,7 @@ const FinalCTA = () => {
     "Limited to spots only",
     "Live Q&A with expert facilitator",
     "Practical, hands-on learning",
-    "Certificate of completion",
+    "Access to exclusive AI tools",
     "Join a community of learners",
   ];
 
@@ -54,7 +54,7 @@ const FinalCTA = () => {
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20">
                 <Users className="w-8 h-8 text-white mx-auto mb-2" />
                 <div className="text-sm text-white/80">Available Spots</div>
-                <div className="font-bold text-white">150 Only</div>
+                <div className="font-bold text-white">Limited lots Only</div>
               </div>
             </div>
 

@@ -44,7 +44,7 @@ const FinalCTA = () => {
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20">
                 <Calendar className="w-8 h-8 text-white mx-auto mb-2" />
                 <div className="text-sm text-white/80">Registration Period</div>
-                <div className="font-bold text-white">Oct 31 - Nov 14</div>
+                <div className="font-bold text-white">Oct 31st - Nov 14th, 2025</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20">
                 <Clock className="w-8 h-8 text-white mx-auto mb-2" />

@@ -47,12 +47,16 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in">
-            <Button variant="accent" size="lg" className="group w-full sm:w-auto">
-              Register for the AI Literacy Class
-              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+            <Button variant="accent" size="lg" className="group w-full sm:w-auto" asChild>
+              <a href="https://wa.me/2347033554845?text=Hey%20Torkuma%2C%20I%20want%20to%20register%20for%20the%20AI%20Literacy%20Masterclass" target="_blank" rel="noopener noreferrer">
+                Register for the AI Literacy Class
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary w-full sm:w-auto">
-              Learn More
+            <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary w-full sm:w-auto" asChild>
+              <a href="https://wa.me/2347033554845?text=Hey%20Torkuma%2C%20I%20want%20to%20register%20for%20the%20AI%20Literacy%20Masterclass" target="_blank" rel="noopener noreferrer">
+                Learn More
+              </a>
             </Button>
           </div>
 

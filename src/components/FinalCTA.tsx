@@ -77,9 +77,12 @@ const FinalCTA = () => {
                 variant="accent" 
                 size="xl" 
                 className="group text-lg shadow-xl"
+                asChild
               >
-                Register Now
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                <a href="https://wa.me/2347033554845?text=Hey%20Torkuma%2C%20I%20want%20to%20register%20for%20the%20AI%20Literacy%20Masterclass" target="_blank" rel="noopener noreferrer">
+                  Register Now
+                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
               <Button 
                 variant="outline" 

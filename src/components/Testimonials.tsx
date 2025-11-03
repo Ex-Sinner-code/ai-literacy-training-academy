@@ -84,7 +84,7 @@ const Testimonials = () => {
           {[
             { value: "500+", label: "Students Trained" },
             { value: "4.9/5", label: "Average Rating" },
-            { value: "150", label: "Spots Available" },
+            { value: "Limited", label: "Slots Available" },
             { value: "30 Days", label: "Intensive Training" },
           ].map((stat, index) => (
             <div 

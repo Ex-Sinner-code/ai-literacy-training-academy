@@ -3,7 +3,7 @@ import { Calendar, Clock, Users, ArrowRight, CheckCircle2 } from "lucide-react";
 
 const FinalCTA = () => {
   const benefits = [
-    "Limited to spots only",
+    "Limited slots only",
     "Live Q&A with expert facilitator",
     "Practical, hands-on learning",
     "Access to exclusive AI tools",
@@ -54,7 +54,7 @@ const FinalCTA = () => {
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20">
                 <Users className="w-8 h-8 text-white mx-auto mb-2" />
                 <div className="text-sm text-white/80">Available Spots</div>
-                <div className="font-bold text-white">Limited lots Only</div>
+                <div className="font-bold text-white">Limited Slots Only</div>
               </div>
             </div>
 

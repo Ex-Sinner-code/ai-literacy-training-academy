@@ -30,7 +30,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full mb-8 animate-fade-in">
             <Sparkles className="w-5 h-5 text-accent" />
-            <span className="text-white font-semibold">AI Literacy Class • Limited to 150 Spots</span>
+            <span className="text-white font-semibold">AI Literacy Class • Limited Slots Available</span>
           </div>
 
           {/* Main Headline */}
@@ -47,11 +47,11 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in">
-            <Button variant="accent" size="xl" className="group">
+            <Button variant="accent" size="lg" className="group w-full sm:w-auto">
               Register for the AI Literacy Class
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="xl" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary">
+            <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary w-full sm:w-auto">
               Learn More
             </Button>
           </div>
@@ -59,8 +59,8 @@ const Hero = () => {
           {/* Key Stats */}
           <div className="grid grid-cols-3 gap-8 pt-8 max-w-2xl mx-auto animate-fade-in">
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-extrabold text-white mb-1">150</div>
-              <div className="text-sm text-white/80">Limited Spots</div>
+              <div className="text-3xl sm:text-4xl font-extrabold text-white mb-1">Limited</div>
+              <div className="text-sm text-white/80">Slots Available</div>
             </div>
             <div className="text-center">
               <div className="text-3xl sm:text-4xl font-extrabold text-white mb-1">30 Days</div>
